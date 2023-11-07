@@ -1,5 +1,5 @@
 pipeline {
-    agent any {
+    agent any 
     parameters {
         string(name: 'APP_VERSION', defaultValue: '503', description: 'Applicaiton Version To Be Deployed') 
     }
@@ -14,4 +14,3 @@ pipeline {
             }
         }
     }
-}
